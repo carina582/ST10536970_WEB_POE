@@ -1,8 +1,8 @@
 # ST10536970_WEB_POE
 # Bloom & Bean Café – WEDE5020 POE Part 2
 
-**Student:** Carina [surname] · **Student number:** [number]
-**Module:** WEDE5020 · **Submission:** Part 2 – Styling & Responsive Design
+**Student:** Carina Dos Santos · **Student number:** ST10536970
+**Module:** WEDE5020 · **Submission:** POE FINAL PART 
 
 A five-page responsive website for Bloom & Bean Café, a plant-filled coffee shop in Stellenbosch, Western Cape.
 
