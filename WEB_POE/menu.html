@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- ===== SEO META TAGS (PART 3) ===== -->
+    <title>Menu | Coffee, Breakfast & Lunch | Bloom & Bean Stellenbosch</title>
+    <meta name="description" content="Explore our seasonal menu featuring ethically sourced coffee, hearty breakfasts, fresh lunch options, and daily baked goods. Locally-sourced ingredients in Stellenbosch." />
+    <meta name="keywords" content="coffee menu Stellenbosch, breakfast Stellenbosch, lunch café, baked goods, artisan pastries" />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Our Menu | Bloom & Bean Café" />
+    <meta property="og:description" content="Seasonal, locally-sourced ingredients crafted with care. View our coffee, breakfast, and lunch menu." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.bloomandbean.co.za/menu.html" />
+    <meta property="og:image" content="https://www.bloomandbean.co.za/images/hero-coffee.jpg" />
+    <!-- ==================================== -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="styles.css">
+   <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- ===== HEADER / NAV ===== -->
+    <header>
+        <div class="container">
+            <div class="logo">Bloom &amp; <span>Bean</span></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html" class="active">Menu</a></li>
+                    <li><a href="enquiry.html">Bookings</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== PAGE HEADER ===== -->
+    <section class="page-header">
+        <h1>Our Menu</h1>
+        <p>Seasonal, locally-sourced ingredients crafted with care — from our kitchen to your table.</p>
+    </section>
+    
+
+    <!-- ===== MENU SECTION ===== -->
+    <section class="menu-section">
+        <div class="container">
+            <div class="search-container" style="text-align: center; margin-bottom: 30px;">
+    <input type="text" id="menuSearch" placeholder="Search our menu (e.g., 'coffee', 'avocado')..." style="padding: 12px; width: 50%; max-width: 400px; border-radius: 8px; border: 2px solid #E8F5E9; font-size: 1rem;">
+</div>
+
+            <!-- ===== CATEGORY: COFFEE ===== -->
+            <div class="menu-category">
+                <div class="category-header">
+                    <h2><i class="fas fa-mug-hot"></i> Coffee</h2>
+                    <p>Ethically sourced, locally roasted, brewed to perfection.</p>
+                </div>
+                <div class="menu-grid">
+
+                    <!-- Espresso -->
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/Espresso.jpg" alt="Espresso" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                            <div class="placeholder-icon" style="display:none;"><i class="fas fa-coffee"></i></div>
+                            <span class="placeholder-text">Espresso.jpg</span>
+                        </div>
+                        <h3>Espresso</h3>
+                        <p class="description">Rich, bold, and smooth — our signature single-origin espresso.</p>
+                        <p class="price">R28 <span>/ single</span></p>
+                    </div>
+
+                    <!-- Americano -->
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/Americano.jpg" alt="Americano" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                            <div class="placeholder-icon" style="display:none;"><i class="fas fa-coffee"></i></div>
+                            <span class="placeholder-text">Americano.jpg</span>
+                        </div>
+                        <h3>Americano</h3>
+                        <p class="description">Espresso with hot water — simple, clean, and full of flavour.</p>
+                        <p class="price">R32 <span>/ cup</span></p>
+                    </div>
+
+                    <!-- Cappuccino -->
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/Cappuccino.jpg" alt="Cappuccino" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                            <div class="placeholder-icon" style="display:none;"><i class="fas fa-coffee"></i></div>
+                            <span class="placeholder-text">Cappuccino.jpg</span>
+                        </div>
+                        <h3>Cappuccino</h3>
+                        <p class="description">Perfectly balanced espresso with steamed milk and a silky foam.</p>
+                        <p class="price">R38 <span>/ cup</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== DIVIDER ===== -->
+            <div class="menu-divider">✦ ✦ ✦</div>
+
+            <!-- ===== CATEGORY: BREAKFAST ===== -->
+            <div class="menu-category">
+                <div class="category-header">
+                    <h2><i class="fas fa-egg"></i> Breakfast</h2>
+                    <p>Fresh, hearty, and made to order — the perfect start to your day.</p>
+                </div>
+                <div class="menu-grid">
+
+                    <!-- Classic Breakfast -->
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/ClassicBreakfast.jpg" alt="Classic Breakfast" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                            <div class="placeholder-icon" style="display:none;"><i class="fas fa-egg"></i></div>
+                            <span class="placeholder-text">ClassicBreakfast.jpg</span>
+                        </div>
+                        <h3>Classic Breakfast</h3>
+                        <p class="description">Two free-range eggs, crispy bacon, grilled tomato, and sourdough toast.</p>
+                        <p class="price">R85</p>
+                    </div>
+
+                    <!-- Avocado Toast -->
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/AvocadoToast.jpg" alt="Avocado Toast" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                            <div class="placeholder-icon" style="display:none;"><i class="fas fa-bread-slice"></i></div>
+                            <span class="placeholder-text">AvocadoToast.jpg</span>
+                        </div>
+                        <h3>Avocado Toast</h3>
+                        <p class="description">Mashed avocado on sourdough with chilli flakes, lemon, and sea salt.</p>
+                        <p class="price">R75</p>
+                    </div>
+
+                    <!-- Fruit & Granola Bowl -->
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/FruitGranola.jpg" alt="Fruit &amp; Granola Bowl" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                            <div class="placeholder-icon" style="display:none;"><i class="fas fa-bowl-food"></i></div>
+                            <span class="placeholder-text">FruitGranola.jpg</span>
+                        </div>
+                        <h3>Fruit &amp; Granola Bowl</h3>
+                        <p class="description">Creamy yoghurt, honey granola, and fresh seasonal fruit.</p>
+                        <p class="price">R65</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== DIVIDER ===== -->
+            <div class="menu-divider">✦ ✦ ✦</div>
+
+            <!-- ===== CATEGORY: LUNCH ===== -->
+            <div class="menu-category">
+                <div class="category-header">
+                    <h2><i class="fas fa-utensils"></i> Lunch</h2>
+                    <p>Savory, satisfying, and made with the freshest local ingredients.</p>
+                </div>
+                <div class="menu-grid">
+
+                    <!-- Bloom Club Sandwich -->
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/BloomClubSandwich.jpg" alt="Bloom Club Sandwich" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                            <div class="placeholder-icon" style="display:none;"><i class="fas fa-bread-slice"></i></div>
+                            <span class="placeholder-text">BloomClubSandwich.jpg</span>
+                        </div>
+                        <h3>Bloom Club Sandwich</h3>
+                        <p class="description">Roasted chicken, avocado, lettuce, tomato, and basil aioli on toasted ciabatta.</p>
+                        <p class="price">R85</p>
+                    </div>
+
+                    <!-- Quinoa Power Bowl -->
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/QuinoaPowerBowl.jpg" alt="Quinoa Power Bowl" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                            <div class="placeholder-icon" style="display:none;"><i class="fas fa-bowl-food"></i></div>
+                            <span class="placeholder-text">QuinoaPowerBowl.jpg</span>
+                        </div>
+                        <h3>Quinoa Power Bowl</h3>
+                        <p class="description">Quinoa, roasted vegetables, chickpeas, feta, and a lemon-tahini dressing.</p>
+                        <p class="price">R90</p>
+                    </div>
+
+                    <!-- Gourmet Baguette -->
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/GourmetBaguette.jpg" alt="Gourmet Baguette" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                            <div class="placeholder-icon" style="display:none;"><i class="fas fa-bread-slice"></i></div>
+                            <span class="placeholder-text">GourmetBaguette.jpg</span>
+                        </div>
+                        <h3>Gourmet Baguette</h3>
+                        <p class="description">Brie, caramelised onions, rocket, and honey mustard on a crusty baguette.</p>
+                        <p class="price">R78</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== DIVIDER ===== -->
+            <div class="menu-divider">✦ ✦ ✦</div>
+
+            <!-- ===== CATEGORY: BAKED GOODS ===== -->
+            <div class="menu-category">
+                <div class="category-header">
+                    <h2><i class="fas fa-cookie"></i> Baked Goods</h2>
+                    <p>Freshly baked daily — the perfect accompaniment to your coffee.</p>
+                </div>
+                <div class="menu-grid">
+
+                    <!-- Butter Croissant -->
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/ButterCroissant.jpg" alt="Butter Croissant" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                            <div class="placeholder-icon" style="display:none;"><i class="fas fa-cookie"></i></div>
+                            <span class="placeholder-text">ButterCroissant.jpg</span>
+                        </div>
+                        <h3>Butter Croissant</h3>
+                        <p class="description">Flaky, golden, and buttery — a classic French pastry.</p>
+                        <p class="price">R25</p>
+                    </div>
+
+                    <!-- Chocolate Muffin -->
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/ChocolateMuffin.jpg" alt="Chocolate Muffin" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                            <div class="placeholder-icon" style="display:none;"><i class="fas fa-cookie"></i></div>
+                            <span class="placeholder-text">ChocolateMuffin.jpg</span>
+                        </div>
+                        <h3>Chocolate Muffin</h3>
+                        <p class="description">Rich, moist, and loaded with dark chocolate chunks.</p>
+                        <p class="price">R28</p>
+                    </div>
+
+                    <!-- Blueberry Scone -->
+                    <div class="menu-item">
+                        <div class="menu-item-image">
+                            <img src="images/BlueberryScone.jpg" alt="Blueberry Scone" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                            <div class="placeholder-icon" style="display:none;"><i class="fas fa-cookie"></i></div>
+                            <span class="placeholder-text">BlueberryScone.jpg</span>
+                        </div>
+                        <h3>Blueberry Scone</h3>
+                        <p class="description">Buttery scone with fresh blueberries, served with clotted cream and jam.</p>
+                        <p class="price">R32</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== CALL TO ACTION ===== -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Hungry? We're Here.</h2>
+            <p>Visit us today and experience the Bloom &amp; Bean difference.</p>
+            <a href="contact.html" class="btn btn-primary">Find Us</a>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div>
+                <h4>Bloom &amp; Bean Café</h4>
+                <p>Stellenbosch, Western Cape</p>
+                <p><i class="fas fa-phone"></i> 021 123 4567</p>
+                <p><i class="fas fa-envelope"></i> hello@bloomandbean.co.za</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="enquiry.html">Bookings</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Opening Hours</h4>
+                <ul>
+                    <li>Mon &ndash; Fri: 7:00am &ndash; 6:00pm</li>
+                    <li>Saturday: 8:00am &ndash; 5:00pm</li>
+                    <li>Sunday: 8:00am &ndash; 3:00pm</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Connect With Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Bloom &amp; Bean Café. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

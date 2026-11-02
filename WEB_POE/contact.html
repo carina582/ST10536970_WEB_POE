@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- ===== SEO META TAGS (PART 3) ===== -->
+    <title>Bookings & Event Enquiries | Bloom & Bean Café</title>
+    <meta name="description" content="Host your next corporate meeting, birthday celebration, or private event at Bloom & Bean Café in Stellenbosch. Accommodates up to 40 guests with customisable catering." />
+    <meta name="keywords" content="event venue Stellenbosch, café bookings, private function, corporate meeting space, party venue" />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Bookings & Enquiries | Bloom & Bean Café" />
+    <meta property="og:description" content="Host your next event with us. Beautiful interiors, delicious catering, and a warm atmosphere." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.bloomandbean.co.za/enquiry.html" />
+    <meta property="og:image" content="https://www.bloomandbean.co.za/images/cafe-interior.jpg" />
+    <!-- ==================================== -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="styles.css">
+   <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- ===== HEADER / NAV ===== -->
+    <header>
+        <div class="container">
+            <div class="logo">Bloom &amp; <span>Bean</span></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="enquiry.html">Bookings</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== PAGE HEADER ===== -->
+    <section class="page-header">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you. Visit us, give us a call, or send us a message.</p>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+
+                <!-- ===== CONTACT INFO ===== -->
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>
+                        Whether you have a question, want to make a booking, or just want 
+                        to say hello — we're always happy to connect with our community.
+                    </p>
+
+                    <ul class="contact-details">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Address</strong>
+                                <span>123 Dorp Street, Stellenbosch, 7600</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Phone</strong>
+                                <span>021 123 4567</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <span>hello@bloomandbean.co.za</span>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-globe"></i>
+                            <div>
+                                <strong>Website</strong>
+                                <span>www.bloomandbean.co.za</span>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!-- ===== OPENING HOURS ===== -->
+                    <div class="opening-hours">
+                        <h3><i class="fas fa-clock"></i> Opening Hours</h3>
+                        <ul>
+                            <li><span>Monday &ndash; Friday</span> <span>7:00am &ndash; 6:00pm</span></li>
+                            <li><span>Saturday</span> <span>8:00am &ndash; 5:00pm</span></li>
+                            <li><span>Sunday</span> <span>8:00am &ndash; 3:00pm</span></li>
+                            <li><span>Public Holidays</span> <span>9:00am &ndash; 2:00pm</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ===== CONTACT FORM ===== -->
+                <div class="contact-form">
+                    <h2>Send a Message</h2>
+                    <p>We'll get back to you within 24 hours.</p>
+
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name <span style="color: #D32F2F;">*</span></label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address <span style="color: #D32F2F;">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject <span style="color: #D32F2F;">*</span></label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject...</option>
+                                <option value="general">General Enquiry</option>
+                                <option value="booking">Event / Function Booking</option>
+                                <option value="feedback">Feedback / Suggestion</option>
+                                <option value="complaint">Complaint</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message <span style="color: #D32F2F;">*</span></label>
+                            <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MAPS SECTION ===== -->
+                <div class="maps-grid">
+                <!-- Map 1: Main Café -->
+                <div class="map-card">
+                    <h3>Main Café</h3>
+                    <p>123 Dorp Street, Stellenbosch</p>
+                    
+                    
+                    <div class="map-placeholder" style="padding: 0; overflow: hidden;">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.0758764465086!2d18.85685377544133!3d-33.93917652270713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcdb2592b7ea861%3A0x76b8a093a091780d!2s123%20Dorp%20St%2C%20Stellenbosch%20Central%2C%20Stellenbosch%2C%207600!5e0!3m2!1spt-PT!2sza!4v1793649182329!5m2!1spt-PT!2sza" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0; min-height: 350px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="strict-origin-when-cross-origin">
+                        </iframe>
+                    </div>
+                </div>
+
+                                <!-- Map 2: Satellite Location -->
+                <div class="map-card">
+                    <h3>Satellite Location</h3>
+                    <p>45 Bird Street, Stellenbosch (inside The Gallery)</p>
+                    
+                    
+                    <div class="map-placeholder" style="padding: 0; overflow: hidden;">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3310.0765727255107!2d18.8568537749768!3d-33.93915861353319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s45%20Bird%20Street%2C%20Stellenbosch%20(inside%20The%20Gallery)!5e0!3m2!1spt-PT!2sza!4v1793649644757!5m2!1spt-PT!2sza" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0; min-height: 350px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="strict-origin-when-cross-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div>
+                <h4>Bloom &amp; Bean Café</h4>
+                <p>Stellenbosch, Western Cape</p>
+                <p><i class="fas fa-phone"></i> 021 123 4567</p>
+                <p><i class="fas fa-envelope"></i> hello@bloomandbean.co.za</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="enquiry.html">Bookings</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Opening Hours</h4>
+                <ul>
+                    <li>Mon &ndash; Fri: 7:00am &ndash; 6:00pm</li>
+                    <li>Saturday: 8:00am &ndash; 5:00pm</li>
+                    <li>Sunday: 8:00am &ndash; 3:00pm</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Connect With Us</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Bloom &amp; Bean Café. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
