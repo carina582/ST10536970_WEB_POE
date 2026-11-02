@@ -1,5 +1,4 @@
-# ST10536970_WEB_POE
-# Bloom & Bean Café – WEDE5020 POE Part 2
+# Bloom & Bean Café 
 
 **Student:** Carina Dos Santos · **Student number:** ST10536970
 **Module:** WEDE5020 · **Submission:** POE FINAL PART 
