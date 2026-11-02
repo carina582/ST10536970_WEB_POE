@@ -116,7 +116,33 @@ Checks performed on each page at each size: no horizontal scrolling, navigation 
 | No references | Added section 8 |
 | No desktop / tablet / mobile testing screenshots | Added `screenshots/` folder and testing table (section 6) |
 
-## 8. References
+## 8. Part 3 – Enhancing Functionality and SEO
+
+### 8.1 JavaScript Enhancements
+* **Dynamic Content (Search):** Added a search input on `menu.html` that uses vanilla JavaScript to filter menu items in real-time by title or description.
+* **Interactive Elements (Accordion):** Prepared CSS/JS structure for an accordion component to be used for FAQs or detailed item descriptions.
+* **Form Validation & AJAX:** Added client-side validation in `script.js`. Forms now check for required fields and simulate an AJAX submission using `fetch()` (or a timeout for demonstration), preventing page reload and providing user feedback.
+
+### 8.2 On-Page SEO
+* **Title Tags & Meta Descriptions:** Updated all HTML files with unique, keyword-rich titles and descriptions (e.g., "Best Coffee in Stellenbosch").
+* **Keywords:** Incorporated relevant keywords like "Stellenbosch coffee shop", "local bakery", "artisan coffee".
+* **Image Optimization:** Ensured all `<img>` tags have descriptive `alt` attributes.
+* **Open Graph Tags:** Added meta tags for better social media sharing.
+
+### 8.3 Off-Page SEO & Additional Files
+* **Robots.txt:** Created a `robots.txt` file to allow search engine crawlers and point to the sitemap.
+* **Sitemap.xml:** Created an XML sitemap detailing the site structure for better indexing.
+* **Deployment:** The site is ready for deployment on free platforms like Netlify or GitHub Pages.
+
+### 8.4 Changelog (Part 3)
+| Feature | Implementation |
+| :--- | :--- |
+| JS Search | Added `#menuSearch` in `menu.html` and filter logic in `script.js`. |
+| AJAX Forms | Intercepted form submissions in `script.js` using `e.preventDefault()` and simulated async fetch. |
+| SEO Meta | Rewrote `<meta>` tags across all 5 HTML files. |
+| Crawler Files | Added `robots.txt` and `sitemap.xml` to the root folder. |
+
+## 9. References
 
 > Adjust the format to the referencing style required by your institution and add the date you accessed each source.
 
